@@ -3,6 +3,8 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'scrooloose/nerdTree'
 nmap <C-n> :NERDTreeToggle<CR>
+Plug 'lilydjwg/Colorizer'
+Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
